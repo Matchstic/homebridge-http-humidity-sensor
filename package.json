@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-http-humidity-sensor",
+  "name": "homebridge-http-moisture-sensor",
   "version": "1.0.7",
-  "description": "Http humidity sensor for Homebridge",
+  "description": "HTTP moisture sensor for Homebridge",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Supereg/homebridge-http-humidity-sensor"
+    "url": "https://github.com/Matchstic/homebridge-http-humidity-sensor"
   },
   "bugs": {
-    "url": "https://github.com/Supereg/homebridge-http-humidity-sensor/issues"
+    "url": "https://github.com/Matchstic/homebridge-http-humidity-sensor/issues"
   },
   "engines": {
     "node": ">=10.17.0",
