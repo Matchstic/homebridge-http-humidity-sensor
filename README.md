@@ -24,7 +24,7 @@ The configuration can contain the following properties:
 
 ##### Basic configuration options:
 
-* `accessory` \<string\> **required**: Defines the plugin used and must be set to **"HTTP-HUMIDITY"** for this plugin.
+* `accessory` \<string\> **required**: Defines the plugin used and must be set to **"HTTP-MOISTURE"** for this plugin.
 * `name` \<string\> **required**: Defines the name which is later displayed in HomeKit
 
 `homebridge-http-moisture-sensor` must be used together with
