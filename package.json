@@ -1,5 +1,6 @@
 {
-  "name": "homebridge-http-moisture-sensor",
+  "name": "homebridge-http-moisture-sensor2",
+  "author": "Matt Clarke",
   "version": "1.0.7",
   "description": "HTTP moisture sensor for Homebridge",
   "license": "ISC",
