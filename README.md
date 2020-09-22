@@ -12,7 +12,11 @@ It is NOT published to NPM.
 First of all you need to have [Homebridge](https://github.com/nfarina/homebridge) installed. Refer to the repo for
 instructions.
 
-Then, install this as a local NPM module.
+Then:
+
+1. Clone the repo
+2. Navigate to it in terminal
+3. Run `npm link`
 
 ## Configuration
 
@@ -20,13 +24,10 @@ The configuration can contain the following properties:
 
 ##### Basic configuration options:
 
-* `accessory` \<string\> **required**: Defines the plugin used and must be set to **"HTTP-HUMIDITY"** for this plugin.
+* `accessory` \<string\> **required**: Defines the plugin used and must be set to **"HTTP-MOISTURE"** for this plugin.
 * `name` \<string\> **required**: Defines the name which is later displayed in HomeKit
-* `getUrl` \<string |  [urlObject](#urlobject)\> **required**: Defines the url (and other properties when using
-    and urlObject) to query the current humidity from the sensor. By default it expects the http server
-    to return the humidity in percent.
 
-`homebridge-http-humidity-sensor` imusts be used together with
+`homebridge-http-moisture-sensor` must be used together with
 [homebridge-http-notification-server](https://github.com/Supereg/homebridge-http-notification-server) in order to receive
 updates when the state changes at your external program. For details on how to implement those updates and how to
 install and configure `homebridge-http-notification-server`, please refer to the
@@ -42,7 +43,7 @@ This is an example on how to configure `homebridge-http-moisture-sensor` to work
           "accessory": "HTTP-MOISTURE",
           "name": "Moisture Sensor",
 
-          "notificationID": "my-humidity-sensor",
+          "notificationID": "my-moisture-sensor",
           "notificationPassword": "superSecretPassword",
         }
     ]
