@@ -12,7 +12,11 @@ It is NOT published to NPM.
 First of all you need to have [Homebridge](https://github.com/nfarina/homebridge) installed. Refer to the repo for
 instructions.
 
-Then, install this as a local NPM module.
+Then:
+
+1. Clone the repo
+2. Navigate to it in terminal
+3. Run `npm link`
 
 ## Configuration
 
